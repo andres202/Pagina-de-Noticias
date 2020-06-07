@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <style>
+
         html {
             scroll-behavior: smooth;
         }
+
+        html, body {
+        width: auto !important;
+        overflow-x: hidden !important;
+        }
+
     </style>
 </head>
 <body>
     <div class="container-fluid" style="font-family: 'Open Sans Condensed', sans-serif;">
-        <header class="row mx-0 align-items-center" style="height: 80px;">
+        <header class="row align-items-center px-0" style="height: 80px;">
             <div class="offset-1">
                 <img src="Recursos/Imágenes/Sigma_Logo.png" alt="Sigma" style="width: 40px;">
             </div>
@@ -93,13 +100,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-5 mx-auto">
+                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
                                     <img src="Recursos/Imágenes/Bundesliga.jpg" class="d-block w-100" alt="Bundesliga">
                                     <div class="bg-light">
                                         <p class="text-black ml-2" style="font-size: 13px;">Félix Stuck - Agence Deutsch-Press</p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-7 text-justify mx-auto">
+                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
                                     <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Klaus Wittmann<br>Sábado 16 de Mayo de 2020</p>
                                     <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">El balón por fin echó a rodar: 
                                     la Bundesliga alemana se convirtió este sábado en la primera gran liga europea en reanudarse con 
@@ -283,48 +290,49 @@
                                             gratuita y online por la pandemia</h3>
                                         <p style="font-size: 20px;font-weight: bolder;">Debido al coronavirus el certamen decidió realizar una
                                             edición en línea, donde presentará más de 20 películas provenientes de 15 países...
-                                                                                <!-- Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                            Leer más
+                                                                                    <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"  style="font-size: 20px;font-weight: bolder;">
+                                            Leer mas
                                         </button>
-                                        
-                                        <!-- Modal -->
+                                                                                <!-- Modal -->
                                         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-scrollable">
+                                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                             <div class="modal-content">
-                                                <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel" style="font-weight: bolder;">22 Festival de Cine Europeo de Concepción</h5>
+                                                <div class="modal-header" style="background-color: rgb(95, 164, 216);">
+                                                <h5 class="modal-title" id="exampleModalLabel" style="font-size: 20px;font-weight: bolder;">22 Festival de Cine Europeo de Concepción</h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+                                                    <span aria-hidden="true" style="color: white;">&times;</span>
                                                 </button>
                                                 </div>
-                                                <div class="modal-body" style="font-weight: bolder;">
-                                                    <p>Por Emilio Contreras<br>Miércoles 20 mayo de 2020</p>
-                                                    <p>La pandemia del Covid-19 no detiene los planes de la Alianza Francesa de Concepción sobre 
-                                                    el Festival de Cine Europeo, que vuelve este año con más de 20 películas de 15 países</p>
-                                                    <p>El evento comenzó en 1998 con el objetivo de difundir películas en la ciudad, y se ha 
-                                                    convertido, con los años, en una pieza fundamental para conocer la Europa multicultural desde 
-                                                    este lado del país.</p>
-                                                    <p>En 2020, el festival regresa con una nueva edición, adaptada a la situación de confinamiento 
-                                                    que estamos viviendo.</p>
-                                                    <p>Por ello, la exhibición de películas se realizará de forma online entre el 1 al 18 de junio 
-                                                    a través de la plataforma Festivalscope.</p>
-                                                    <p>El acceso será gratuito, aunque con una inscripción previa a través del siguiente <a href="https://festivaldecineeuropeo.inflc.me/" target="blank">
-                                                    link</a>.</p>
-                                                    <p>“Una vez inscrito, y cerca de la fecha de inicio del festival, te llegará un correo electrónico 
-                                                    con el link para acceder a la plataforma, desde donde podrás disfrutar de todas las películas que 
-                                                    exhibiremos este año”, informan los organizadores.</p>
-                                                    <p>El enlace será de uso exclusivo para quienes se conecten desde cualquier rincón de Chile (no 
-                                                    podrá visualizarse desde el extranjero). Revisa aquí parte de la cartelera:</p>
+                                                <div class="modal-body text-justify" style="font-weight: bolder;background-color: rgb(250, 250, 250);">
+                                                    <p style="font-size: 15px; border-top: 1px solid #AEAEAE;border-bottom: 1px solid #AEAEAE;">Por Emilio Contreras<br>Miércoles 20 mayo de 2020</p>
+                                                        <p>La pandemia del Covid-19 no detiene los planes de la Alianza Francesa de Concepción sobre 
+                                                        el Festival de Cine Europeo, que vuelve este año con más de 20 películas de 15 países</p>
+                                                        <p>El evento comenzó en 1998 con el objetivo de difundir películas en la ciudad, y se ha 
+                                                        convertido, con los años, en una pieza fundamental para conocer la Europa multicultural desde 
+                                                        este lado del país.</p>
+                                                        <p>En 2020, el festival regresa con una nueva edición, adaptada a la situación de confinamiento 
+                                                        que estamos viviendo.</p>
+                                                        <p>Por ello, la exhibición de películas se realizará de forma online entre el 1 al 18 de junio 
+                                                        a través de la plataforma Festivalscope.</p>
+                                                        <p>El acceso será gratuito, aunque con una inscripción previa a través del siguiente <a href="https://festivaldecineeuropeo.inflc.me/">Link</a>.</p>
+                                                        <p>“Una vez inscrito, y cerca de la fecha de inicio del festival, te llegará un correo electrónico 
+                                                        con el link para acceder a la plataforma, desde donde podrás disfrutar de todas las películas que 
+                                                        exhibiremos este año”, informan los organizadores.</p>
+                                                        <p>El enlace será de uso exclusivo para quienes se conecten desde cualquier rincón de Chile (no 
+                                                        podrá visualizarse desde el extranjero). Revisa aquí parte de la cartelera:</p>
                                                 </div>
-                                                <div class="modal-footer">
+                                                <div class="modal-footer" style="background-color: #257DC0;">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                
                                                 </div>
                                             </div>
                                             </div>
                                         </div>
-                                        
                                         </p>
+                                                                    
+                                                                
+                                        
                                     </div>    
                                 </div>
 
@@ -340,8 +348,10 @@
                                                 <img src="Recursos/Imágenes/Cartel_Hollywood.jpg" class="w-100" alt="Hollywood" style="width: 150px; height: 120px;">
                                             </div>
                                             <div class="col-12 col-sm-8 col-md-6 col-lg-6">
-                                                <h5 style="font-size: 20px;font-weight: bolder;">Hollywood usará robots en sus sets para prevenir contagio del coronavirus
-                                                </h5>
+                                                <h5 style="font-size: 20px;font-weight: bolder;">Hollywood usará robots en sus sets para prevenir contagio del coronavirus... <!-- Button trigger modal -->
+                                                    <label type="button" class="btn p-0 m-0" data-toggle="modal" data-target="#exampleModal" style="font-size: 20px;font-weight: bolder;color: #253C68;vertical-align: text-top;">
+                                                        Leer más
+                                                    </label></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -851,12 +861,12 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-3 col-lg-3 border border-primary">
+            <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="row align-items-center">
                     <div class="col-6 border border-dark">
                         <img src="Recursos/Imágenes/Festival_Cine_Logo_Original.jpg" class="w-100" alt="Festival Cine Logo">
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 border border-primary">
                         <h4 class="text-black" style="font-weight: bold;">Festival de Cine Europeo de Concepción tendrá edición
                         gratuita y online por la pandemia</h4>
                         <p class="text-black" style="font-weight: bold;">Debido al coronavirus el certamen decidió realizar una
@@ -872,8 +882,8 @@
 
         <!-- Footer -->
 
-        <div class="row mx-0" style="color: #abb2b8;background-color: #012a4f; font-family: 'Open Sans Condensed', sans-serif;font-weight: bolder;letter-spacing: .5px;">
-            <div class="col-12">
+        <div class="row">
+            <div class="col-12" style="color: #abb2b8;background-color: #012a4f; font-family: 'Open Sans Condensed', sans-serif;font-weight: bolder;letter-spacing: .5px;">
                 <div class="row">
                     <div class="col-12">
                         <div class="row justify-content-center">
@@ -949,7 +959,51 @@
 
         <br>
         
+        <div class="row">
+            <div class="col-2">
 
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Launch demo modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Por Emilio Contreras<br>Miércoles 20 mayo de 2020</p>
+                                <p>La pandemia del Covid-19 no detiene los planes de la Alianza Francesa de Concepción sobre 
+                                el Festival de Cine Europeo, que vuelve este año con más de 20 películas de 15 países</p>
+                                <p>El evento comenzó en 1998 con el objetivo de difundir películas en la ciudad, y se ha 
+                                convertido, con los años, en una pieza fundamental para conocer la Europa multicultural desde 
+                                este lado del país.</p>
+                                <p>En 2020, el festival regresa con una nueva edición, adaptada a la situación de confinamiento 
+                                que estamos viviendo.</p>
+                                <p>Por ello, la exhibición de películas se realizará de forma online entre el 1 al 18 de junio 
+                                a través de la plataforma Festivalscope.</p>
+                                <p>El acceso será gratuito, aunque con una inscripción previa a través del siguiente.</p>
+                                <p>“Una vez inscrito, y cerca de la fecha de inicio del festival, te llegará un correo electrónico 
+                                con el link para acceder a la plataforma, desde donde podrás disfrutar de todas las películas que 
+                                exhibiremos este año”, informan los organizadores.</p>
+                                <p>El enlace será de uso exclusivo para quienes se conecten desde cualquier rincón de Chile (no 
+                                podrá visualizarse desde el extranjero). Revisa aquí parte de la cartelera:</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="jquery-3.4.1.min.js"></script>
     <script src="bootstrap.min.js"></script>
