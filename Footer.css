@@ -1,0 +1,25 @@
+@media only screen and (max-width: 575px) {
+    .iconos-footer div{ 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .enlaces-footer div{ 
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contactos-footer .imagen-derecha{
+        text-align: end;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contactos-footer .texto-izquierda{
+        text-align: start;
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+}
