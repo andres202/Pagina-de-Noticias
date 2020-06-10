@@ -23,3 +23,25 @@
         padding-right: 0px;
     }
 }
+
+@media only screen and (min-width: 576px) {
+    .licencia-footer{
+        text-align: center;
+    }
+    .licencia-footer p{ 
+        display: inline;
+        
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .certificado-footer{ 
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .enlaces-footer{ 
+        border-right: 1px solid #3848a5;
+    }
+}
