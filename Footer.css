@@ -3,6 +3,13 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+    .logo-footer{
+        transform-origin: center center;
+        transition: all 1s;
+    }
+    .logo-footer:hover{
+        transform: scale(1.25);
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -38,10 +45,46 @@
     .certificado-footer{ 
         display: none;
     }
+    .uno {
+        position: relative;
+        z-index: 1;
+    }
+    .cinco{
+        position: relative;
+        z-index: 1;
+    }
+    .cuatro{
+        margin-left: -15px;
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to right,rgba(255,0,0,0)40%,rgba(0,0,0,1)90%);
+        z-index: 1;
+    }
+    .dos{
+        width: 40%;
+        position: relative;
+        top: 20%;
+        left: 60%;
+    }
+    .tres{
+        width: 40%;
+        position: relative;
+        top: 25%;
+        left: 60%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .enlaces-footer{ 
         border-right: 1px solid #3848a5;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cambio{ 
+        margin-bottom: 0px;
     }
 }
