@@ -1,11 +1,44 @@
 @media only screen and (max-width: 991px) {
-    .margen-publicidad{
-        margin-left: 0px;
+    .texto-publicidad{
+        margin: 0px;
+        
+        
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .margin-top-publicidad{
+    .contenedor-publicidad{
+        padding-top: 16px;    
+    }
+    .texto-publicidad{
+        margin-right: 0px;
+    }
+    .imagen-publicidad{
         margin-top: 16px;
+        
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .uno{ 
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+}
+
+.imagen-publicidad{
+    height: 600px;
+    background: url("Recursos/Imágenes/Casa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 14s infinite alternate;
+}
+
+@keyframes slider{
+    from{
+        background-position: left center;
+    }
+    to{
+        background-position: right center;
     }
 }
