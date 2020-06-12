@@ -1,0 +1,32 @@
+.uno{
+    width: 100%;
+    height:500px;
+    position: absolute;
+    /*top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;*/
+    margin: auto;
+
+    background: url("Recursos/Imágenes/12062.w1000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 14s infinite alternate;
+}
+
+@keyframes slider{
+    from{
+        
+        background-position: left center;
+    }
+    to{
+        
+        background-position: right bottom;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .dos{
+        display: none;
+    }
+}
