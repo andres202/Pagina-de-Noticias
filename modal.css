@@ -1,19 +1,21 @@
-.uno{
-    animation: scaledown 0.4s ease;
-    animation-fill-mode: backwards;
-    transform-origin: 50% 50%;
+.one{
+    
+    transition:all 0.5s;
+    
 }
-.uno:hover{
-    animation: scale 0.4s ease;
-    animation-fill-mode: backwards;
-    transform-origin: 50% 50%;
+.one:hover{
+    
+    transform: scale(2.5);
+    z-index: 1;
 }
 
-@keyframes scaledown {
-    0%{
-        transform: scale(1);
-    }
-    10%{
-        transform: scale(1.5);
-    }
+.dos{
+    
+    transform-origin: left center;
+    transition:all 0.5s;
+}
+.dos:hover{
+    
+    transform: scale(1.5);
+    z-index: 100;
 }

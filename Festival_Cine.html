@@ -4,19 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <style>
-        @media only screen and (min-width: 768px), (max-width: 1000px) {
-            .icono {               
-                justify-content: space-between;
-            }
+        .imagen-carrusel-izquierda{
+            transition:all 0.5s;
+            transform-origin: left center;        
         }
-        @media only screen and (min-width: 768px), (max-width: 1000px) {
-            .borde-derecho {               
-                border-right: 1px solid #3848a5;
+        .imagen-carrusel-izquierda:hover{
+            transform: scale(1.5);
+            z-index: 1;
+            box-shadow: 0px 2px 20px #000;
+        }
+        .imagen-carrusel-centro{
+            transition:all 0.5s;
+            transform-origin: center center;        
+        }
+        .imagen-carrusel-centro:hover{
+            transform: scale(1.5);
+            z-index: 1;
+            box-shadow: 0px 2px 20px #000;
+        }
+        .imagen-carrusel-derecha{
+            transition:all 0.5s;
+            transform-origin: right center;        
+        }
+        .imagen-carrusel-derecha:hover{
+            transform: scale(1.5);
+            z-index: 1;
+            box-shadow: 0px 2px 20px #000;
+        }
+        @media only screen and (max-width: 575px){
+            .imagen-carrusel-izquierda:hover{
+                transform: scale(3);
             }
+            .imagen-carrusel-centro:hover{
+                transform: scale(3);
+            }
+            .imagen-carrusel-derecha:hover{
+                transform: scale(3);
+            }           
         }
     </style>
 </head>
@@ -153,55 +181,55 @@
                     </div>
                     <div class="col-md-12 col-lg-12">
                         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" style="overflow: visible;">
                                 <div class="carousel-item active col-12" data-interval="3000">
                                     <div class="row">
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-izquierda">
                                             <img src="Recursos/Imágenes/homosapiensbandera.jpg" class="d-block w-100" alt="...">
                                         </div>                            
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-centro">
                                             <img src="Recursos/Imágenes/onestep_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-derecha">
                                             <img src="Recursos/Imágenes/paradise_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item col-12" data-interval="3000">
                                     <div class="row">
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-izquierda">
                                             <img src="Recursos/Imágenes/smuggling_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>                           
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-centro">
                                             <img src="Recursos/Imágenes/maidenof_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-derecha">
                                             <img src="Recursos/Imágenes/themagic_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>
                                     </div>                        
                                 </div>
                                 <div class="carousel-item col-12" data-interval="3000">
                                     <div class="row">
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-izquierda">
                                             <img src="Recursos/Imágenes/silavidateda_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>                            
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-centro">
                                             <img src="Recursos/Imágenes/push_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-derecha">
                                             <img src="Recursos/Imágenes/stranger_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>
                                     </div>                                              
                                 </div>
                                 <div class="carousel-item col-12" data-interval="3000">
                                     <div class="row">
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-izquierda">
                                             <img src="Recursos/Imágenes/pedroeines_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>                            
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-centro">
                                             <img src="Recursos/Imágenes/diecitiete_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>
-                                        <div class="col-4 px-0">
+                                        <div class="col-4 px-0 imagen-carrusel-derecha">
                                             <img src="Recursos/Imágenes/rayyritz_bandera.jpg" class="d-block w-100" alt="...">
                                         </div>
                                     </div>                                              
