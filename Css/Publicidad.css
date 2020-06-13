@@ -1,8 +1,6 @@
 @media only screen and (max-width: 991px) {
     .texto-publicidad{
-        margin: 0px;
-        
-        
+        margin: 0px;        
     }
 }
 
@@ -14,21 +12,24 @@
         margin-right: 0px;
     }
     .imagen-publicidad{
-        margin-top: 16px;
-        
+        height: 563px;
+        margin-top: 16px;        
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .uno{ 
+    .contenedor-imagen-publicidad{
+        height: 650px;
         margin-left: 0px;
+        margin-top: 16px;
+    }
+    .prueba{
         margin-top: 16px;
     }
 }
 
-.imagen-publicidad{
-    height: 600px;
-    background: url("Recursos/Imágenes/Casa.jpg");
+.imagen-publicidad{    
+    background: url("../Recursos/Imágenes/Casa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     animation: slider 14s infinite alternate;
@@ -40,5 +41,16 @@
     }
     to{
         background-position: right center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .prueba{
+        position: absolute;
+        top:320px;
+        margin-top: 16px;
+    }
+    .imagen-publicidad{
+        height: 656px;
     }
 }

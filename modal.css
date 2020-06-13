@@ -1,39 +1,19 @@
-/*.uno{
-    width: ;
-    height:500px;
-    position: absolute;
-    /*top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;*/
-    
-/*
-    background: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: slider 14s infinite alternate;
+.uno{
+    animation: scaledown 0.4s ease;
+    animation-fill-mode: backwards;
+    transform-origin: 50% 50%;
 }
-/*
-@keyframes slider{
-    from{
-        
-        background-position: left center;
-    }
-    to{
-        
-        background-position: right bottom;
-    }
+.uno:hover{
+    animation: scale 0.4s ease;
+    animation-fill-mode: backwards;
+    transform-origin: 50% 50%;
 }
 
-@media only screen and (max-width: 991px) {
-    .dos{
-        display: none;
+@keyframes scaledown {
+    0%{
+        transform: scale(1);
     }
-}
-
-@media only screen and (max-width: 991px) {
-    .uno{
-        width: ;
-    height:400px;
+    10%{
+        transform: scale(1.5);
     }
 }
