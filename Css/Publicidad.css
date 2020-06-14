@@ -15,12 +15,50 @@
         height: 593px;
         margin-top: 16px;        
     }
+    .texto-naturaleza-publicidad{
+        font-size: 31px;
+    }
+    .texto-trekking-publicidad{
+        font-size: 25px;
+    }
+    .texto-kilometros-publicidad{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .texto-cascada-publicidad{
+        font-size: 35px;
+    }
+    .texto-hora-publicidad{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .texto-naturaleza-publicidad{
+        font-size: 23px;
+    }
+    .texto-trekking-publicidad{
+        font-size: 20px;
+    }
+    .texto-kilometros-publicidad{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .texto-cascada-publicidad{
+        font-size: 23px;
+    }
+    .texto-hora-publicidad{
+        font-size: 25px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .contenedor-cascada-publicidad{
         margin-top:36px;
         padding-left: 0px;
+    }
+    .texto-fecha-publicidad{
+        font-size: 12px;
     }
 }
 
@@ -32,7 +70,7 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .texto-naturaleza-publicidad{
-        font-size: 40px;
+        font-size: 34px;
     }
     .texto-trekking-publicidad{
         font-size: 25px;
