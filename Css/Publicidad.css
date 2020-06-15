@@ -140,3 +140,12 @@
         height: 656px;
     }
 }
+
+.tu{
+    background-image: url("../Recursos/Imágenes/boy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    color: rgb(201, 201, 201);
+}
