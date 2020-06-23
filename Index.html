@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="Css/deportes.css">
     <link rel="stylesheet" href="Css/Footer.css">
     <link rel="stylesheet" href="Css/Educación.css">
     <link rel="stylesheet" href="Css/Publicidad.css">
     <link rel="stylesheet" href="modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
@@ -17,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plaster&display=swap" rel="stylesheet">
     <style>
         html {
+            font-size: 16px;
             scroll-behavior: smooth;
         }
     </style>
@@ -33,34 +37,23 @@
             </div>
         </header>
         <!--Nav-->
-        <nav class="row" style="font-size: 20px;font-weight: bolder;letter-spacing: 1.5px;">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #253C68;">
-                    <a class="navbar-brand text-white" id="Portada" href="#Portada"><img src="Recursos/Íconos/House.png" width="30" height="30" class="d-inline-block align-top" alt="Portada" loading="lazy">Portada</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>              
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <div class="navbar-nav mr-auto">
-                            <a class="nav-item nav-link active text-white" href="#Deportes">Deportes</a>
-                            <a class="nav-item nav-link text-white" href="#Entretenimiento">Entretenimiento</a>
-                            <a class="nav-item nav-link text-white" href="#Educación">Educación</a>
-                            <a class="nav-item nav-link text-white" href="#Finanzas">Finanzas</a>
-                            <a class="nav-item nav-link text-white" href="#Videos">Videos</a>
-                        </div>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" style="font-size: 16px;font-weight: bolder;letter-spacing: 1.5px;">
-                            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" style="font-size: 16px;font-weight: bolder;letter-spacing: 1.5px;">Buscar</button>
-                        </form>
-                    </div>
-                </nav>
+        <nav class="navbar navbar-expand-md navbar-dark py-md-0">
+            <a class="navbar-brand" id="Portada" href="#Portada"><img src="Recursos/Íconos/House.png" width="30px" height="30px" class="align-top" alt="House"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>              
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="navbar-nav w-100 justify-content-around">
+                    <a class="nav-item nav-link py-md-3 text-nav-item" href="#Deportes">DEPORTES</a>
+                    <a class="nav-item nav-link py-md-3 text-nav-item" href="#Entretenimiento">ENTRETENIMIENTO</a>
+                    <a class="nav-item nav-link py-md-3 text-nav-item" href="#Educación">EDUCACIÓN</a>
+                    <a class="nav-item nav-link py-md-3 text-nav-item" href="#Finanzas">FINANZAS</a>
+                    <a class="nav-item nav-link py-md-3 text-nav-item" href="#Videos">VIDEOS</a>
+                </div>
             </div>
-        </nav>
-
+        </nav>           
         <br>
-
         <!-- Deportes -->
-
         <div class="row">
             <div class="col-12">
                 <a href="#Portada"><img class="float-right pt-2" src="Recursos/Íconos/House_Reserva.png" style="width: 30px;"></a>
@@ -68,170 +61,168 @@
                 Deportes</h2>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                    </ol>
-                    <div class="carousel-inner pb-5" style="background-color: #4267b2;font-weight: bolder;">
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item active">
-                            <div class="row text-center align-items-center" style="height:110px">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                                    <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Se reanudó la Bundesliga en Alemania</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
-                                    <img src="Recursos/Imágenes/Bundesliga.jpg" class="d-block w-100" alt="Bundesliga">
-                                    <div class="bg-light">
-                                        <p class="text-black ml-2" style="font-size: 13px;">Félix Stuck - Agence Deutsch-Press</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                                    <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Klaus Wittmann<br>Sábado 16 de Mayo de 2020</p>
-                                    <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">El balón por fin echó a rodar: 
-                                    la Bundesliga alemana se convirtió este sábado en la primera gran liga europea en reanudarse con 
-                                    cinco partidos en juego, una situación observada por todo el mundo, pero con un silencio perturbador, 
-                                    el de las gradas vacías.</p>
-                                    <p style="font-size: 16px;font-weight: bolder; letter-spacing: .5px;">A la hora prevista, el sonido de
-                                    los silbatos se hizo más perceptible que nunca en Augsburgo, Düsseldorf, Hoffenheim, Leipzig y Dortmund, 
-                                    poniendo la piel de gallina a todos los amantes del fútbol, que llevaban esperando mas de dos meses a 
-                                    ver un partido cuando la mayoría de torneos quedaron suspendidos a mediados de marzo por la pandemia del 
-                                    nuevo coronavirus.</p>
-                                    <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">El fútbol está de vuelta, aunque
-                                    es imposible entusiasmarse completamente, ya que la crisis sanitaria está visible en todos lados. Una 
-                                    extraña situación que se prolongará durante meses.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
-                            <div class="row text-center align-items-center" style="height:110px">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                                    <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Federación de Tenis de Chile autoriza retorno a las prácticas</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
-                                    <img src="Recursos/Imágenes/Tenis.jpg" class="d-block w-100" alt="Tenis">
-                                    <div class="bg-light">
-                                        <p class="text-black ml-2" style="font-size: 13px;">Archivo - Luis Sepúlveda - Agencia Uno</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                                    <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Cristian Bello<br>Martes 12 de Mayo de 2020</p>
-                                    <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">La Federación 
-                                    de Tenis de Chile informó este martes que recibió permiso de las autoridades sanitarias para reiniciar la
-                                    práctica de la actividad en los clubes deportivos del país, tras el receso por la pandemia del coronavirus.</p>
-                                    <p  style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">No obstante, la Fetech apuntó que
-                                    esta resolución "no entrará en vigencia hasta que se haga pública en el diario oficial, pero la damos a conocer para que los 
-                                    clubes preparen todas las normas requeridas en el protocolo adjunto".</p>
-                                    <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">En el protocolo, la Fetech indica
-                                    las normas de distanciamiento social, vestimenta (uso obligatorio de mascarilla) e higiene que deberán cumplir los jugadores 
-                                    y funcionarios de cada club. "La autoridad sanitaria tendrá las atribuciones de suspender las actividades si encuentra que no 
-                                    se están respetando los protocolos del documento en cuestión", sentenció la Fetech.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
-                            <div class="row text-center align-items-center" style="height: 110px;">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                                    <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">The Last Dance de Michael Jordan: 23 millones de espectadores</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
-                                    <img src="Recursos/Imágenes/Michael_Jordan.jpg" class="d-block w-100" alt="Michael Jordan">
-                                    <div class="bg-light">
-                                        <p class="text-black ml-2" style="font-size: 13px;">Archivo - John Walter - Agencia News</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                                    <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Andrew McMurtry<br>Jueves 21 de Mayo de 2020</p>
-                                    <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">Michael Jordan sigue siendo el Rey
-                                    Midas de la NBA y todo lo que toca se convierte en oro. 23.8 millones de hogares fuera de EE.UU. vieron The Last Dance en sus 
-                                    primeras cuatro semanas", aseguró Netflix en un mensaje en redes sociales sobre las audiencias recogidas durante los primeros 
-                                    ocho episodios de la serie.</p>
-                                    <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">El documental de 10 horas de duración 
-                                    ha alcanzado cifras millonarias de audiencia, este recorre su última temporada en los Bulls que culminó con la conquista de su 
-                                    sexto anillo de campeón de la NBA.</p>
-                                    <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">Faltan por añadir los datos de los
-                                    dos últimos capítulos. Algo que sí tienen en Estados Unidos, donde la emisión corrió a cargo de ESPN. La cadena de Connecticut 
-                                    ya ha dado las cifras, estas dicen que los capítulos 9 y 10 fueron vistos por 5,9 millones de espectadores.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
-                            <div class="row text-center align-items-center" style="height: 110px;">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                                    <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Asociación Caupolicán tiene hasta octubre para iniciar la temporada 2020</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
-                                    <img src="Recursos/Imágenes/Futbol_Amateur.jpg" class="d-block w-100" alt="Futbol Amateur">
-                                    <div class="bg-light">
-                                        <p class="text-black ml-2" style="font-size: 13px;">Gentileza - Miguel Santelices</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                                    <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Sandro Araya<br>Miércoles 20 de Mayo de 2020</p>
-                                    <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">La Asociación Caupolicán de Chiguayante no desespera por la 
-                                    pandemia de Coronavirus y ya tiene definida una fecha tentativa, para comenzar la temporada, señaló el presidente, Claudio Urrutia.</p>
-                                    <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">"Contamos con 16 clubes, de modo que tres meses serían suficientes 
-                                    para desarrollar el campeonato. De ahí que podemos esperar hasta octubre. Lógicamente, si parte antes será mucho mejor, ya que no estaremos 
-                                    tan presionados por el factor tiempo", aseguró, y recordó que la entidad cuenta con ocho series.</p>
-                                    <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">Ellas son segunda y primera infantil, juvenil y súper senior, que 
-                                    juegan los sábado en la tarde; y segunda y primera adulta, más honor y senior, que lo hacen la mañana y mediodía del domingo. Originalmente, 
-                                    el Torneo Oficial estaba fijado para arrancar el sábado 14 y domingo 15 de marzo.</p>
-                                </div>
-                            </div>    
-                        </div>
-                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
-                            <div class="row text-center align-items-center" style="height: 110px;">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                                    <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Taekwondo sonríe y espera en tiempos de incertidumbre</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
-                                    <img src="Recursos/Imágenes/Taekwondo.jpg" class="d-block w-100" alt="Taekwondo">
-                                    <div class="bg-light">
-                                        <p class="text-black ml-2" style="font-size: 13px;">Gentileza - Felipe Burgos</p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                                    <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Carlos Campos<br>Lunes 18 de Mayo de 2020</p>
-                                    <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">En el
-                                    taekwondo tienen más que claro que no son un deporte masivo, popular, ni que arrastre multitudes, pero no por eso
-                                    dejan de destacar los grandes crecimientos que han logrado en las últimas temporadas en Adesup, Se logró masificar
-                                    este deporte en prácticamente todas las universidades.</p>
-                                    <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">La UdeC y UBB han sido las potencias, por la increíble 
-                                    cantidad de competidores que tienen, aunque la U. Técnica Federico Santa María y la Unab tampoco se quedan atrás, y esperan 
-                                    mejorar sus resultados con el tiempo.</p>
-                                    <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">Razones que dejan contentos a los protagonistas de un deporte 
-                                    que, al igual que el resto de las disciplinas a nivel Adesup, sufrieron la cancelación de los nacionales en 2019, tampoco saben si 
-                                    este año haya competencia, solo esperan que a futuro la disciplina pueda seguir creciendo como ha sido hasta ahora.</p>
-                                </div>
-                            </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner pb-5" style="font-weight: bolder;">
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item active">
+                    <div class="row text-center align-items-center" style="height:110px">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
+                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Se reanudó la Bundesliga en Alemania</h3>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+                            <img src="Recursos/Imágenes/Bundesliga.jpg" class="d-block w-100" alt="Bundesliga">
+                            <div class="bg-light">
+                                <p class="text-black ml-2" style="font-size: 13px;">Félix Stuck - Agence Deutsch-Press</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
+                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Klaus Wittmann<br>Sábado 16 de Mayo de 2020</p>
+                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">El balón por fin echó a rodar: 
+                            la Bundesliga alemana se convirtió este sábado en la primera gran liga europea en reanudarse con 
+                            cinco partidos en juego, una situación observada por todo el mundo, pero con un silencio perturbador, 
+                            el de las gradas vacías.</p>
+                            <p style="font-size: 16px;font-weight: bolder; letter-spacing: .5px;">A la hora prevista, el sonido de
+                            los silbatos se hizo más perceptible que nunca en Augsburgo, Düsseldorf, Hoffenheim, Leipzig y Dortmund, 
+                            poniendo la piel de gallina a todos los amantes del fútbol, que llevaban esperando mas de dos meses a 
+                            ver un partido cuando la mayoría de torneos quedaron suspendidos a mediados de marzo por la pandemia del 
+                            nuevo coronavirus.</p>
+                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">El fútbol está de vuelta, aunque
+                            es imposible entusiasmarse completamente, ya que la crisis sanitaria está visible en todos lados. Una 
+                            extraña situación que se prolongará durante meses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
+                    <div class="row text-center align-items-center" style="height:110px">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
+                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Federación de Tenis de Chile autoriza retorno a las prácticas</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+                            <img src="Recursos/Imágenes/Tenis.jpg" class="d-block w-100" alt="Tenis">
+                            <div class="bg-light">
+                                <p class="text-black ml-2" style="font-size: 13px;">Archivo - Luis Sepúlveda - Agencia Uno</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
+                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Cristian Bello<br>Martes 12 de Mayo de 2020</p>
+                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">La Federación 
+                            de Tenis de Chile informó este martes que recibió permiso de las autoridades sanitarias para reiniciar la
+                            práctica de la actividad en los clubes deportivos del país, tras el receso por la pandemia del coronavirus.</p>
+                            <p  style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">No obstante, la Fetech apuntó que
+                            esta resolución "no entrará en vigencia hasta que se haga pública en el diario oficial, pero la damos a conocer para que los 
+                            clubes preparen todas las normas requeridas en el protocolo adjunto".</p>
+                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">En el protocolo, la Fetech indica
+                            las normas de distanciamiento social, vestimenta (uso obligatorio de mascarilla) e higiene que deberán cumplir los jugadores 
+                            y funcionarios de cada club. "La autoridad sanitaria tendrá las atribuciones de suspender las actividades si encuentra que no 
+                            se están respetando los protocolos del documento en cuestión", sentenció la Fetech.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
+                    <div class="row text-center align-items-center" style="height: 110px;">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
+                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">The Last Dance de Michael Jordan: 23 millones de espectadores</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+                            <img src="Recursos/Imágenes/Michael_Jordan.jpg" class="d-block w-100" alt="Michael Jordan">
+                            <div class="bg-light">
+                                <p class="text-black ml-2" style="font-size: 13px;">Archivo - John Walter - Agencia News</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
+                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Andrew McMurtry<br>Jueves 21 de Mayo de 2020</p>
+                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">Michael Jordan sigue siendo el Rey
+                            Midas de la NBA y todo lo que toca se convierte en oro. 23.8 millones de hogares fuera de EE.UU. vieron The Last Dance en sus 
+                            primeras cuatro semanas", aseguró Netflix en un mensaje en redes sociales sobre las audiencias recogidas durante los primeros 
+                            ocho episodios de la serie.</p>
+                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">El documental de 10 horas de duración 
+                            ha alcanzado cifras millonarias de audiencia, este recorre su última temporada en los Bulls que culminó con la conquista de su 
+                            sexto anillo de campeón de la NBA.</p>
+                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">Faltan por añadir los datos de los
+                            dos últimos capítulos. Algo que sí tienen en Estados Unidos, donde la emisión corrió a cargo de ESPN. La cadena de Connecticut 
+                            ya ha dado las cifras, estas dicen que los capítulos 9 y 10 fueron vistos por 5,9 millones de espectadores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
+                    <div class="row text-center align-items-center" style="height: 110px;">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
+                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Asociación Caupolicán tiene hasta octubre para iniciar la temporada 2020</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+                            <img src="Recursos/Imágenes/Futbol_Amateur.jpg" class="d-block w-100" alt="Futbol Amateur">
+                            <div class="bg-light">
+                                <p class="text-black ml-2" style="font-size: 13px;">Gentileza - Miguel Santelices</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
+                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Sandro Araya<br>Miércoles 20 de Mayo de 2020</p>
+                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">La Asociación Caupolicán de Chiguayante no desespera por la 
+                            pandemia de Coronavirus y ya tiene definida una fecha tentativa, para comenzar la temporada, señaló el presidente, Claudio Urrutia.</p>
+                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">"Contamos con 16 clubes, de modo que tres meses serían suficientes 
+                            para desarrollar el campeonato. De ahí que podemos esperar hasta octubre. Lógicamente, si parte antes será mucho mejor, ya que no estaremos 
+                            tan presionados por el factor tiempo", aseguró, y recordó que la entidad cuenta con ocho series.</p>
+                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">Ellas son segunda y primera infantil, juvenil y súper senior, que 
+                            juegan los sábado en la tarde; y segunda y primera adulta, más honor y senior, que lo hacen la mañana y mediodía del domingo. Originalmente, 
+                            el Torneo Oficial estaba fijado para arrancar el sábado 14 y domingo 15 de marzo.</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
+                    <div class="row text-center align-items-center" style="height: 110px;">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
+                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Taekwondo sonríe y espera en tiempos de incertidumbre</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+                            <img src="Recursos/Imágenes/Taekwondo.jpg" class="d-block w-100" alt="Taekwondo">
+                            <div class="bg-light">
+                                <p class="text-black ml-2" style="font-size: 13px;">Gentileza - Felipe Burgos</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
+                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Carlos Campos<br>Lunes 18 de Mayo de 2020</p>
+                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">En el
+                            taekwondo tienen más que claro que no son un deporte masivo, popular, ni que arrastre multitudes, pero no por eso
+                            dejan de destacar los grandes crecimientos que han logrado en las últimas temporadas en Adesup, Se logró masificar
+                            este deporte en prácticamente todas las universidades.</p>
+                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">La UdeC y UBB han sido las potencias, por la increíble 
+                            cantidad de competidores que tienen, aunque la U. Técnica Federico Santa María y la Unab tampoco se quedan atrás, y esperan 
+                            mejorar sus resultados con el tiempo.</p>
+                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">Razones que dejan contentos a los protagonistas de un deporte 
+                            que, al igual que el resto de las disciplinas a nivel Adesup, sufrieron la cancelación de los nacionales en 2019, tampoco saben si 
+                            este año haya competencia, solo esperan que a futuro la disciplina pueda seguir creciendo como ha sido hasta ahora.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
+        
+                
+            
 
         <br>
 
@@ -367,7 +358,7 @@
                                         <img src="Recursos/Imágenes/Educación_Inclusiva.jpg" class="pb-2 w-100" alt="Educación Inclusiva" style="width: 200px; height: 130px;">
                                     </div>
                                     <div class="col-sm-8 col-md-6 col-lg-6">
-                                        <h5 class="text-white" style="font-size: 18px;font-weight: bolder; font-family: 'Open Sans Condensed', sans-serif;letter-spacing: .5px;">Experto en educación de la Unesco y Unicef dictará seminario online sobre inclusión para Chile</h5>
+                                        <h5 class="text-white" style="font-size: 18px;font-weight: bolder; font-family: 'Open Sans Condensed', sans-serif;letter-spacing: .5px;"><a href="#Experto_Educación" data-toggle="modal" style="text-decoration: none;color: inherit;">Experto en educación de la Unesco y Unicef dictará seminario online sobre inclusión para Chile</a></h5>
                                     </div>
                                 </div>
                                 <hr class="mt-0 línea-inclusiva-educación" style="width: 100%; color: rgba(255,255,255,0.4); height: 1px; background-color:rgba(255,255,255,0.4);">
@@ -378,7 +369,7 @@
                                         <img src="Recursos/Imágenes/Pofesora_Carretón.jpg" class="pb-2 w-100" alt="Profesora en Carretón" style="width: 200px; height: 130px;">
                                     </div>
                                     <div class="col-sm-8 col-md-6 col-lg-6">
-                                        <h5 class="text-white" style="font-size: 18px;font-weight: bolder; font-family: 'Open Sans Condensed', sans-serif;letter-spacing: .5px;">Profesora va en carreta a entregar material educativo a alumnos sin internet</h5>
+                                        <h5 class="text-white" style="font-size: 18px;font-weight: bolder; font-family: 'Open Sans Condensed', sans-serif;letter-spacing: .5px;"><a href="#Profesora_Carreta" data-toggle="modal" style="text-decoration: none;color: inherit;">Profesora va en carreta a entregar material educativo a alumnos sin internet</a></h5>
                                     </div>
                                 </div>
                                 <hr class="my-0" style="width: 100%; color: rgba(255,255,255,0.4); height: 1px; background-color:rgba(255,255,255,0.4);">
@@ -770,7 +761,7 @@
                                 <img src="Recursos/Imágenes/Cascada.jpg" alt="Cascada" style="background-size: cover;width: 100%;">
                                 <p class="text-center text-white" style="font-weight: bolder;background-color: rgb(41, 109, 41);width: 100%;">SALIDA: LOMAS COLORADAS</p>
                             </div>
-                            <div class="col-12" style="position: absolute;left: 2%;">    
+                            <div class="col-12" style="position: absolute;left: 2%;width: 98%;">    
                                 <p style="font-size: 31px;font-weight: bolder; color: rgb(214, 126, 25);text-shadow: 1px 1px 1px white;">VEN A LA NATURALEZA</p>
                                 <p class="mb-0 text-white" style="font-size: 22px; font-weight: bolder; line-height: 1;">TREKKING</p>
                                 <p class="mb-0 text-white" style="font-size: 45px;font-weight: bolder ; font-family: 'Lato', sans-serif;line-height: 1;">20K</p>
@@ -786,10 +777,16 @@
                             <div class="col-12">
                                 <img src="Recursos/Imágenes/Perro.jpg" alt="Perro" style="background-size: contain; width: 100%;">
                             </div>
-                            <div class="col-12" style="font-family: 'Lato', sans-serif;position: absolute;top: 20%;left: 2%;color: rgb(65, 154, 177);">
+                            <div class="col-12" style="font-family: 'Lato', sans-serif;position: absolute;top: 15%;left: 2%;color: rgb(65, 154, 177);width: 98%;">
                                 <p class="mb-0" style="font-size: 25px;font-weight: bolder;line-height: 1;text-shadow: 2px 2px 2px black;">NO SOY</p>
                                 <p class="mb-1" style="font-size: 25px;font-weight: bolder;line-height: 1;text-shadow: 2px 2px 2px black;">DE LA CALLE</p>
                                 <p class="mb-0" style="font-size: 18px;font-weight: bolder;line-height: 1;text-shadow: 2px 2px 2px black;">ME DEJARON</p>
+                                <p class="mb-0" style="font-size: 18px;font-weight: bolder;line-height: 1;text-shadow: 2px 2px 2px black;">EN LA CALLE</p>
+                            </div>
+                            <div class="col-12" style="font-family: 'Lato', sans-serif;position: absolute;bottom: 2%;left: 2%;color: rgb(189, 186, 33);width: 98%;">
+                                <p class="mb-0" style="font-size: 18px;font-weight: bolder;line-height: 1;text-shadow: 2px 2px 2px black;">MIENTRAS COMPRAS</p>
+                                <p class="mb-0" style="font-size: 18px;font-weight: bolder;line-height: 1;text-shadow: 2px 2px 2px black;">UN PERRO</p>
+                                <p class="mb-0" style="font-size: 18px;font-weight: bolder;line-height: 1;text-shadow: 2px 2px 2px black;">OTRO MUERE</p>
                                 <p class="mb-0" style="font-size: 18px;font-weight: bolder;line-height: 1;text-shadow: 2px 2px 2px black;">EN LA CALLE</p>
                             </div>
                         </div>
@@ -941,7 +938,7 @@
             </div>
         </div>
 
-                <!-- Modal -->
+        <!-- Modal -->
         <div class="modal fade" id="Calidad_Educación" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
@@ -977,6 +974,95 @@
                                         resguardo en el mandato que entrega a la CNA.</p>
                                     </div>                                               
                                 </div>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="background-color: #1b376e;">
+                        <a href="#" class="text-white px-2 py-1" data-dismiss="modal" style="font-size: 15px;font-weight: bolder;letter-spacing: .5px; background-color: #4267b2;border-radius: 5px;text-decoration: none;">Cerrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Experto_Educación" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #1b376e;">
+                        <h5 class="modal-title text-white mr-auto" id="exampleModalLabel" style="font-size: 20px;font-weight: bolder;letter-spacing: .5px;">Experto en educación de la Unesco y Unicef dictará seminario online sobre inclusión para Chile</h5>
+                        <a href="#" data-dismiss="modal"><img src="Recursos/Imágenes/Cerrar.png" style="width: 20px;"></a>
+                        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>-->
+                    </div>
+                    <div class="modal-body text-justify" style="font-weight: bolder;background-color: #4267b2;">
+                        <div class="container-fluid">
+                            <div class="row" style="background-color: white;">
+                                <div class="col-12">
+                                    <br>
+                                    <p style="font-size: 15px; border-top: 1px solid #AEAEAE;border-bottom: 1px solid #AEAEAE;">Por Francisca Rivas<br>Miércoles 29 de mayo de 2020</p>
+                                </div>
+                                <div class="col-12">
+                                    <p class="mb-1">Mel Ainscow, profesor emérito de Educación de la Universidad de Manchester, es autoridad mundial en la promoción de la inclusión y la equidad en educación, 
+                                    lo que lo ha llevado a ser asesor de Unesco por varios años, como también de Unicef y Save the Children, entre otros.</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class=" float-left">
+                                        <img class=" mr-2" src="Recursos/Imágenes/Mel_Ainscow.jpg" style="width: 170px;height: 170px;">
+                                        <p class="pl-1 mb-0" style="width: 170px;background-color: rgb(199, 199, 199);font-size: 13px;">Archivo</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">En junio, participará en el V Seminario de Inclusión, versión online, organizado por la Fundación Educacional Seminarium.</p>
+                                        <p class="mb-0">Organismos internacionales han concluido que la paralización de las clases presenciales, debido a la pandemia del Covid-19, aumentará la desigualdad entre los estudiantes 
+                                        dependiendo de factores como su nivel socioeconómico, acceso a tecnologías y zonas geográficas, entre muchos otros factores, que no permitirá avanzar en los aprendizajes 
+                                        equitativamente.</p>
+                                        <p>En este sentido, la OCDE afirmó que la pandemia podría generar la disrupción más grande en términos de oportunidades educacionales de la presente generación, convirtiéndose 
+                                        en una situación delicada, según expertos, toda vez que la inclusión es la base de la educación de calidad, punto que incluso fue declarado por Unesco.</p>
+                                    </div>                                               
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="background-color: #1b376e;">
+                        <a href="#" class="text-white px-2 py-1" data-dismiss="modal" style="font-size: 15px;font-weight: bolder;letter-spacing: .5px; background-color: #4267b2;border-radius: 5px;text-decoration: none;">Cerrar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Profesora_Carreta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #1b376e;">
+                        <h5 class="modal-title text-white mr-auto" id="exampleModalLabel" style="font-size: 20px;font-weight: bolder;letter-spacing: .5px;">Profesora va en carreta a lugares apartados para entregar material educativo a alumnos sin internet</h5>
+                        <a href="#" data-dismiss="modal"><img src="Recursos/Imágenes/Cerrar.png" style="width: 20px;"></a>
+                        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>-->
+                    </div>
+                    <div class="modal-body text-justify" style="font-weight: bolder;background-color: #4267b2;">
+                        <div class="container-fluid">
+                            <div class="row" style="background-color: white;">
+                                <div class="col-12">
+                                    <br>
+                                    <p style="font-size: 15px; border-top: 1px solid #AEAEAE;border-bottom: 1px solid #AEAEAE;">Por Miguel Fuentes<br>Miércoles 31 de mayo de 2020</p>
+                                </div>
+                                <div class="col-12">
+                                    <p class="mb-1">Una profesora de Educación General Básica preocupada por la continuidad de estudios de alumnos que viven en sectores rurales alejados de la comuna de Santa Juana, 
+                                    Región del Biobío, se moviliza en carreta para llevar material pedagógico a estudiantes que no tienen internet.</p>
+                                </div>
+                                <div class="col-12">
+                                    <img class=" mr-2" src="Recursos/Imágenes/Profesora.jpg" style="width: 100%;height: auto;">
+                                    <p class="pl-1 mb-1" style="width: 100%;background-color: rgb(199, 199, 199);font-size: 13px;">Gentileza E. Hernández</p>
+                                </div>
+                                <div class="col-12">
+                                    <p class="mb-0">La docente Inés María González es la encargada de la escuela Poduco Alto, la que funciona a la vez como internado, debido a que sus alumnos viven en lugares muy apartados 
+                                    en una de las comunas más grandes pero con mayor índice de ruralidad de la provincia de Concepción.</p>
+                                    <p>González contó que "tenemos que llegar en carreta para poder ver a sus familias, ver en las condiciones que están los alumnos, cuáles son sus necesidades y poder ahí 
+                                    apoyarlos para que ellos puedan entender". "Se les dificultan mucho sus aprendizajes, ya que la mayoría de sus padres, ellos viven con abuelitos que no saben leer ni escribir, no tienen 
+                                    conectividad, ni teléfono, ni internet, entonces, viven en un aislamiento sociocultural muy grande y lo único que les aporta y puede favorecer el desarrollo de su vida es la escuela", agregó.</p>
+                                </div>                            
                             </div>        
                         </div>
                     </div>

@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #253C68;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+
+.nav-item:hover{
+    background-color: #F31600;
+}
+
+.text-nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white !important;
+    letter-spacing: .1rem;
+}
