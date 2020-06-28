@@ -1,3 +1,38 @@
 .carousel-inner{
     background-color: #4267b2;
 }
+
+.titulos-contenedor{
+    height: 6.8rem;
+}
+
+.titulos-deportes{
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .03rem;
+}
+
+.texto-fotos{
+    color: #000000;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.texto-nombres{
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+    letter-spacing: .05rem;
+}
+
+.texto-noticia{
+    color: #000000;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .03rem;
+}

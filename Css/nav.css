@@ -2,18 +2,66 @@
     background-color: #253C68;
 }
 
-.navbar-nav{
-    margin: 0 auto;
+.icono-nav{
+    width: 1.875rem;
+    height: 1.875rem;
 }
 
-.nav-item:hover{
-    background-color: #F31600;
+.navbar-nav{
+    margin: 0 auto;
 }
 
 .text-nav-item{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    color: white !important;
+    color: #fff !important;
     letter-spacing: .1rem;
+}
+
+
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #fff !important;
+    letter-spacing: .1rem;
+}
+
+@media only screen and (max-width:578px) {
+    .text-nav-item{
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-width:968px) {
+    .nav-item:hover{
+        background-color: #4F4949;
+    }
+    .dropdown:hover>.dropdown-menu{
+        display: block;
+    }
+    .menu-area{
+        position: static;
+    }
+}
+
+
+
+
+
+.mega-area{
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+.uno{
+    
+    
+    height: 200px;
+    
 }

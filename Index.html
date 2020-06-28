@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plaster&display=swap" rel="stylesheet">
     <style>
         html {
-            font-size: 16px;
+            
             scroll-behavior: smooth;
         }
     </style>
@@ -38,7 +38,80 @@
         </header>
         <!--Nav-->
         <nav class="navbar navbar-expand-md navbar-dark py-md-0">
-            <a class="navbar-brand" id="Portada" href="#Portada"><img src="Recursos/Íconos/House.png" width="30px" height="30px" class="align-top" alt="House"></a>
+            <a class="navbar-brand" id="Portada" href="#Portada"><img class="icono-nav" src="Recursos/Íconos/House.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav w-100 justify-content-around">
+                    <li class="nav-item active py-md-2">
+                        <a class="nav-link" href="#Deportes">DEPORTES</a>
+                    </li>
+                    <li class="nav-item py-md-2">
+                        <a class="nav-link" href="#Entretención">ENTRETENCIÓN</a>
+                    </li>
+                    <li class="nav-item dropdown py-md-2 menu-area">
+                        <a class="nav-link dropdown-toggle" href="#Educación" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        EDUCACIÓN
+                        </a>
+                        <div class="dropdown-menu mega-area" style="background: #4F4949;" aria-labelledby="navbarDropdownMenuLink">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-4">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-md-8 col-lg-12 text-center">
+                                            <a class="dropdown-item" href="#">
+                                                <img class="uno w-100" src="Recursos/Imágenes/Universidad_de_Concepción.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3 col-md-4 col-lg-12 pl-md-0 pr-md-5 px-lg-3">
+                                            <a href="#">
+                                                <p class="px-lg-4 mb-0 text-justify">La Comisión Nacional de Acreditación (CNA) publicará nuevos criterios y estándares de acreditación de las instituciones educación superior (IES)</p>
+                                            </a>                                                                    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <a class="dropdown-item" href="#">
+                                                <img class="uno w-100" src="Recursos/Imágenes/Educación_Inclusiva.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <p class="px-md-4 mb-0 text-justify">Experto en educación de la Unesco y Unicef dictará seminario online sobre inclusión para Chile</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 uno">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <a class="dropdown-item" href="#">
+                                                <img class="uno w-100" src="Recursos/Imágenes/Pofesora_Carretón.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="col-12">
+                                            <a href="#">
+                                                <p class="px-md-4 mb-0 text-justify">Profesora va en carreta a lugares apartados para entregar material educativo a alumnos sin internet</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item py-md-2">
+                        <a class="nav-link" href="#Finanzas">FINANZAS</a>
+                    </li>
+                    <li class="nav-item py-md-2">
+                        <a class="nav-link" href="#Videos">VIDEOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--<nav class="navbar navbar-expand-md navbar-dark py-md-0">
+            <a class="navbar-brand" id="Portada" href="#Portada"><img class="align-top icono-nav" src="Recursos/Íconos/House.png" alt="House"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>              
@@ -51,7 +124,7 @@
                     <a class="nav-item nav-link py-md-3 text-nav-item" href="#Videos">VIDEOS</a>
                 </div>
             </div>
-        </nav>           
+        </nav>-->
         <br>
         <!-- Deportes -->
         <div class="row">
@@ -69,144 +142,149 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             </ol>
-            <div class="carousel-inner pb-5" style="font-weight: bolder;">
+            <div class="carousel-inner pb-5">
                 <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item active">
-                    <div class="row text-center align-items-center" style="height:110px">
+                    <div class="row text-center align-items-center titulos-contenedor">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Se reanudó la Bundesliga en Alemania</h3>
+                            <h3 class="mb-0 titulos-deportes">Se reanudó la Bundesliga en Alemania</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
                             <img src="Recursos/Imágenes/Bundesliga.jpg" class="d-block w-100" alt="Bundesliga">
                             <div class="bg-light">
-                                <p class="text-black ml-2" style="font-size: 13px;">Félix Stuck - Agence Deutsch-Press</p>
+                                <p class="ml-2 texto-fotos">Félix Stuck - Agence Deutsch-Press</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Klaus Wittmann<br>Sábado 16 de Mayo de 2020</p>
-                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">El balón por fin echó a rodar: 
-                            la Bundesliga alemana se convirtió este sábado en la primera gran liga europea en reanudarse con 
-                            cinco partidos en juego, una situación observada por todo el mundo, pero con un silencio perturbador, 
-                            el de las gradas vacías.</p>
-                            <p style="font-size: 16px;font-weight: bolder; letter-spacing: .5px;">A la hora prevista, el sonido de
-                            los silbatos se hizo más perceptible que nunca en Augsburgo, Düsseldorf, Hoffenheim, Leipzig y Dortmund, 
-                            poniendo la piel de gallina a todos los amantes del fútbol, que llevaban esperando mas de dos meses a 
-                            ver un partido cuando la mayoría de torneos quedaron suspendidos a mediados de marzo por la pandemia del 
-                            nuevo coronavirus.</p>
-                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">El fútbol está de vuelta, aunque
-                            es imposible entusiasmarse completamente, ya que la crisis sanitaria está visible en todos lados. Una 
-                            extraña situación que se prolongará durante meses.</p>
+                            <p class="texto-nombres">Por Klaus Wittmann<br>Sábado 16 de Mayo de 2020</p>
+                            <p class="texto-noticia">El balón por fin echó a rodar: 
+                            la Bundesliga alemana se convirtió este sábado en la primera gran liga europea en reanudarse 
+                            con cinco partidos en juego, una situación observada por todo el mundo, pero con un silencio 
+                            perturbador, el de las gradas vacías.</p>
+                            <p class="texto-noticia">A la hora prevista, el sonido de los silbatos se hizo más perceptible 
+                            que nunca en Augsburgo, Düsseldorf, Hoffenheim, Leipzig y Dortmund, poniendo la piel de gallina 
+                            a todos los amantes del fútbol, que llevaban esperando mas de dos meses a ver un partido cuando 
+                            la mayoría de torneos quedaron suspendidos a mediados de marzo por la pandemia del nuevo 
+                            coronavirus.</p>
+                            <p class="texto-noticia">El fútbol está de vuelta, aunque es imposible entusiasmarse completamente, 
+                            ya que la crisis sanitaria está visible en todos lados. Una extraña situación que se prolongará 
+                            durante meses.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
-                    <div class="row text-center align-items-center" style="height:110px">
+                    <div class="row text-center align-items-center titulos-contenedor">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Federación de Tenis de Chile autoriza retorno a las prácticas</h3>
+                            <h3 class="mb-0 titulos-deportes">Federación de Tenis de Chile autoriza retorno a las prácticas</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
                             <img src="Recursos/Imágenes/Tenis.jpg" class="d-block w-100" alt="Tenis">
                             <div class="bg-light">
-                                <p class="text-black ml-2" style="font-size: 13px;">Archivo - Luis Sepúlveda - Agencia Uno</p>
+                                <p class="ml-2 texto-fotos">Archivo - Luis Sepúlveda - Agencia Uno</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Cristian Bello<br>Martes 12 de Mayo de 2020</p>
-                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">La Federación 
-                            de Tenis de Chile informó este martes que recibió permiso de las autoridades sanitarias para reiniciar la
-                            práctica de la actividad en los clubes deportivos del país, tras el receso por la pandemia del coronavirus.</p>
-                            <p  style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">No obstante, la Fetech apuntó que
-                            esta resolución "no entrará en vigencia hasta que se haga pública en el diario oficial, pero la damos a conocer para que los 
-                            clubes preparen todas las normas requeridas en el protocolo adjunto".</p>
-                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">En el protocolo, la Fetech indica
-                            las normas de distanciamiento social, vestimenta (uso obligatorio de mascarilla) e higiene que deberán cumplir los jugadores 
-                            y funcionarios de cada club. "La autoridad sanitaria tendrá las atribuciones de suspender las actividades si encuentra que no 
-                            se están respetando los protocolos del documento en cuestión", sentenció la Fetech.</p>
+                            <p class="texto-nombres">Por Cristian Bello<br>Martes 12 de Mayo de 2020</p>
+                            <p class="texto-noticia">La Federación de Tenis de Chile informó este martes que recibió permiso de 
+                            las autoridades sanitarias para reiniciar la práctica de la actividad en los clubes deportivos del 
+                            país, tras el receso por la pandemia del coronavirus.</p>
+                            <p class="texto-noticia">No obstante, la Fetech apuntó que esta resolución "no entrará en vigencia 
+                            hasta que se haga pública en el diario oficial, pero la damos a conocer para que los clubes preparen 
+                            todas las normas requeridas en el protocolo adjunto".</p>
+                            <p class="texto-noticia">En el protocolo, la Fetech indica
+                            las normas de distanciamiento social, vestimenta (uso obligatorio de mascarilla) e higiene que deberán 
+                            cumplir los jugadores y funcionarios de cada club. "La autoridad sanitaria tendrá las atribuciones de 
+                            suspender las actividades si encuentra que no se están respetando los protocolos del documento en 
+                            cuestión", sentenció la Fetech.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
-                    <div class="row text-center align-items-center" style="height: 110px;">
+                    <div class="row text-center align-items-center titulos-contenedor">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">The Last Dance de Michael Jordan: 23 millones de espectadores</h3>
+                            <h3 class="mb-0 titulos-deportes">The Last Dance de Michael Jordan: 23 millones de espectadores</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
                             <img src="Recursos/Imágenes/Michael_Jordan.jpg" class="d-block w-100" alt="Michael Jordan">
                             <div class="bg-light">
-                                <p class="text-black ml-2" style="font-size: 13px;">Archivo - John Walter - Agencia News</p>
+                                <p class="ml-2 texto-fotos">Archivo - John Walter - Agencia News</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Andrew McMurtry<br>Jueves 21 de Mayo de 2020</p>
-                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">Michael Jordan sigue siendo el Rey
-                            Midas de la NBA y todo lo que toca se convierte en oro. 23.8 millones de hogares fuera de EE.UU. vieron The Last Dance en sus 
-                            primeras cuatro semanas", aseguró Netflix en un mensaje en redes sociales sobre las audiencias recogidas durante los primeros 
-                            ocho episodios de la serie.</p>
-                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">El documental de 10 horas de duración 
-                            ha alcanzado cifras millonarias de audiencia, este recorre su última temporada en los Bulls que culminó con la conquista de su 
-                            sexto anillo de campeón de la NBA.</p>
-                            <p style="font-size: 16px;letter-spacing: .5px;font-weight: bolder;letter-spacing: .5px;">Faltan por añadir los datos de los
-                            dos últimos capítulos. Algo que sí tienen en Estados Unidos, donde la emisión corrió a cargo de ESPN. La cadena de Connecticut 
-                            ya ha dado las cifras, estas dicen que los capítulos 9 y 10 fueron vistos por 5,9 millones de espectadores.</p>
+                            <p class="texto-nombres">Por Andrew McMurtry<br>Jueves 21 de Mayo de 2020</p>
+                            <p class="texto-noticia">Michael Jordan sigue siendo el Rey Midas de la NBA y todo lo que toca se 
+                            convierte en oro. 23.8 millones de hogares fuera de EE.UU. vieron The Last Dance en sus primeras 
+                            cuatro semanas", aseguró Netflix en un mensaje en redes sociales sobre las audiencias recogidas 
+                            durante los primeros ocho episodios de la serie.</p>
+                            <p class="texto-noticia">El documental de 10 horas de duración ha alcanzado cifras millonarias de 
+                            audiencia, este recorre su última temporada en los Bulls que culminó con la conquista de su sexto 
+                            anillo de campeón de la NBA.</p>
+                            <p class="texto-noticia">Faltan por añadir los datos de los dos últimos capítulos. Algo que sí tienen 
+                            en Estados Unidos, donde la emisión corrió a cargo de ESPN. La cadena de Connecticut ya ha dado las 
+                            cifras, estas dicen que los capítulos 9 y 10 fueron vistos por 5,9 millones de espectadores.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
-                    <div class="row text-center align-items-center" style="height: 110px;">
+                    <div class="row text-center align-items-center titulos-contenedor">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Asociación Caupolicán tiene hasta octubre para iniciar la temporada 2020</h3>
+                            <h3 class="mb-0 titulos-deportes">Asociación Caupolicán tiene hasta octubre para iniciar la temporada 2020</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
                             <img src="Recursos/Imágenes/Futbol_Amateur.jpg" class="d-block w-100" alt="Futbol Amateur">
                             <div class="bg-light">
-                                <p class="text-black ml-2" style="font-size: 13px;">Gentileza - Miguel Santelices</p>
+                                <p class="ml-2 texto-fotos">Gentileza - Miguel Santelices</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Sandro Araya<br>Miércoles 20 de Mayo de 2020</p>
-                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">La Asociación Caupolicán de Chiguayante no desespera por la 
-                            pandemia de Coronavirus y ya tiene definida una fecha tentativa, para comenzar la temporada, señaló el presidente, Claudio Urrutia.</p>
-                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">"Contamos con 16 clubes, de modo que tres meses serían suficientes 
-                            para desarrollar el campeonato. De ahí que podemos esperar hasta octubre. Lógicamente, si parte antes será mucho mejor, ya que no estaremos 
-                            tan presionados por el factor tiempo", aseguró, y recordó que la entidad cuenta con ocho series.</p>
-                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">Ellas son segunda y primera infantil, juvenil y súper senior, que 
-                            juegan los sábado en la tarde; y segunda y primera adulta, más honor y senior, que lo hacen la mañana y mediodía del domingo. Originalmente, 
-                            el Torneo Oficial estaba fijado para arrancar el sábado 14 y domingo 15 de marzo.</p>
+                            <p class="texto-nombres">Por Sandro Araya<br>Miércoles 20 de Mayo de 2020</p>
+                            <p class="texto-noticia">La Asociación Caupolicán de Chiguayante no desespera por la pandemia de 
+                            Coronavirus y ya tiene definida una fecha tentativa, para comenzar la temporada, señaló el 
+                            presidente, Claudio Urrutia.</p>
+                            <p class="texto-noticia">"Contamos con 16 clubes, de modo que tres meses serían suficientes para 
+                            desarrollar el campeonato. De ahí que podemos esperar hasta octubre. Lógicamente, si parte antes 
+                            será mucho mejor, ya que no estaremos tan presionados por el factor tiempo", aseguró, y recordó 
+                            que la entidad cuenta con ocho series.</p>
+                            <p class="texto-noticia">Ellas son segunda y primera infantil, juvenil y súper senior, que juegan 
+                            los sábado en la tarde; y segunda y primera adulta, más honor y senior, que lo hacen la mañana y 
+                            mediodía del domingo. Originalmente, el Torneo Oficial estaba fijado para arrancar el sábado 14 y 
+                            domingo 15 de marzo.</p>
                         </div>
                     </div>    
                 </div>
                 <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 offset-1 carousel-item">
-                    <div class="row text-center align-items-center" style="height: 110px;">
+                    <div class="row text-center align-items-center titulos-contenedor">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto my-1">
-                            <h3 class="text-white mb-0" style="font-size: 25px;font-weight: bolder;letter-spacing: .5px;">Taekwondo sonríe y espera en tiempos de incertidumbre</h3>
+                            <h3 class="mb-0 titulos-deportes">Taekwondo sonríe y espera en tiempos de incertidumbre</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
                             <img src="Recursos/Imágenes/Taekwondo.jpg" class="d-block w-100" alt="Taekwondo">
                             <div class="bg-light">
-                                <p class="text-black ml-2" style="font-size: 13px;">Gentileza - Felipe Burgos</p>
+                                <p class="ml-2 texto-fotos">Gentileza - Felipe Burgos</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-6 text-justify mx-auto">
-                            <p class="text-white" style="font-size: 15px;letter-spacing: .8px;">Por Carlos Campos<br>Lunes 18 de Mayo de 2020</p>
-                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">En el
-                            taekwondo tienen más que claro que no son un deporte masivo, popular, ni que arrastre multitudes, pero no por eso
-                            dejan de destacar los grandes crecimientos que han logrado en las últimas temporadas en Adesup, Se logró masificar
-                            este deporte en prácticamente todas las universidades.</p>
-                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">La UdeC y UBB han sido las potencias, por la increíble 
-                            cantidad de competidores que tienen, aunque la U. Técnica Federico Santa María y la Unab tampoco se quedan atrás, y esperan 
-                            mejorar sus resultados con el tiempo.</p>
-                            <p style="font-size: 16px;font-weight: bolder;letter-spacing: .5px;">Razones que dejan contentos a los protagonistas de un deporte 
-                            que, al igual que el resto de las disciplinas a nivel Adesup, sufrieron la cancelación de los nacionales en 2019, tampoco saben si 
-                            este año haya competencia, solo esperan que a futuro la disciplina pueda seguir creciendo como ha sido hasta ahora.</p>
+                            <p class="texto-nombres">Por Carlos Campos<br>Lunes 18 de Mayo de 2020</p>
+                            <p class="texto-noticia">En el
+                            taekwondo tienen más que claro que no son un deporte masivo, popular, ni que arrastre multitudes, 
+                            pero no por eso dejan de destacar los grandes crecimientos que han logrado en las últimas temporadas 
+                            en Adesup, Se logró masificar este deporte en prácticamente todas las universidades.</p>
+                            <p class="texto-noticia">La UdeC y UBB han sido las potencias, por la increíble cantidad de competidores 
+                            que tienen, aunque la U. Técnica Federico Santa María y la Unab tampoco se quedan atrás, y esperan mejorar 
+                            sus resultados con el tiempo.</p>
+                            <p class="texto-noticia">Razones que dejan contentos a los protagonistas de un deporte que, al igual que 
+                            el resto de las disciplinas a nivel Adesup, sufrieron la cancelación de los nacionales en 2019, tampoco 
+                            saben si este año haya competencia, solo esperan que a futuro la disciplina pueda seguir creciendo como ha 
+                            sido hasta ahora.</p>
                         </div>
                     </div>
                 </div>
@@ -220,19 +298,14 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        
-                
-            
-
         <br>
-
         <!-- Entretenimiento -->
             
         <div class="row">
             <div class="col-lg-9 col-md-12">
                 <a href="#Portada"><img class="float-right pt-2" src="Recursos/Íconos/House.png" style="width: 30px;"></a>
-                <h2 id="Entretenimiento" style="color: #F31600; border-top:3px solid #F31600;font-weight: bolder">
-                Entretenimiento</h2>
+                <h2 id="Entretención" style="color: #F31600; border-top:3px solid #F31600;font-weight: bolder">
+                Entretención</h2>
             </div>
         </div>
         
